@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+.btn-primary{
+    border: 0;
+    background-color: #E55473;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .5em 1em;
+    border-radius: .3em;
+    margin-top: .5em;
+}
+/* Typography */
+h1{
+    font-size: 3rem;
+}
+p{
+    color: #272727;
+    font-size: 18px;
+    margin:.5em 0;
+}
+
+/* Header */
+header{
+    background-color: #FCEEf1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 3em;
+}
+.header-details{
+    width: 30%;
+}
+.header-img{
+    width: 30%;
+}
+.header-img img{
+    width: 100%;
+}
