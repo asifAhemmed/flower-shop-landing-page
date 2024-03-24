@@ -23,6 +23,10 @@
     align-items: center;
     gap: 2em;
 }
+
+span{
+    color: #E55473;
+}
 /* Typography */
 h1{
     font-size: 3rem;
@@ -83,4 +87,91 @@ header{
 }
 .feature-flower img{
     object-fit: cover;
+}
+
+/* More Feature */
+.more-feature{
+    background-color: rgba(207, 198, 198, 0.627);
+    display: flex;
+    padding: 3em 5em;
+    gap: 5em;
+    border-radius: .3em;
+}
+
+.more-feature div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Hot Deal */
+.hot-deal{
+    background-color: #FCEEf1;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    gap: 3em;
+    padding: 3em 6em;
+}
+.deal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+
+
+/* Instagram */
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.insta-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 50%;
+}
+.insta-img img{
+    width: 40%;
+}
+
+/* Subscription */
+.subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    padding: 4em 20em;
+}
+.subscription form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.subscription input{
+    border: 0;
+    border-radius: .3em;
+    padding: .5em 3em .7em 1em;
+}
+/* Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+    padding: 6em;
+    color: white;
+}
+
+footer p{
+    color: white;
 }
